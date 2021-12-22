@@ -16,6 +16,7 @@
 		BCB01608276B6BEC00FD828A /* LearningSession_part_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB01607276B6BEC00FD828A /* LearningSession_part_2Tests.swift */; };
 		BCB01612276B6BEC00FD828A /* LearningSession_part_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB01611276B6BEC00FD828A /* LearningSession_part_2UITests.swift */; };
 		BCB01614276B6BEC00FD828A /* LearningSession_part_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB01613276B6BEC00FD828A /* LearningSession_part_2UITestsLaunchTests.swift */; };
+		BCDAE309276DB23800E9FD16 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCDAE308276DB23800E9FD16 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BCB0160D276B6BEC00FD828A /* LearningSession part 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LearningSession part 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB01611276B6BEC00FD828A /* LearningSession_part_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSession_part_2UITests.swift; sourceTree = "<group>"; };
 		BCB01613276B6BEC00FD828A /* LearningSession_part_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningSession_part_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCDAE308276DB23800E9FD16 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				BCB015F0276B6BEB00FD828A /* AppDelegate.swift */,
 				BCB015F2276B6BEB00FD828A /* SceneDelegate.swift */,
 				BCB015F4276B6BEB00FD828A /* ViewController.swift */,
+				BCDAE308276DB23800E9FD16 /* SecondViewController.swift */,
 				BCB015F6276B6BEB00FD828A /* Main.storyboard */,
 				BCB015F9276B6BEB00FD828A /* Assets.xcassets */,
 				BCB015FB276B6BEB00FD828A /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCDAE309276DB23800E9FD16 /* SecondViewController.swift in Sources */,
 				BCB015F5276B6BEB00FD828A /* ViewController.swift in Sources */,
 				BCB015F1276B6BEB00FD828A /* AppDelegate.swift in Sources */,
 				BCB015F3276B6BEB00FD828A /* SceneDelegate.swift in Sources */,
@@ -439,8 +443,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VK487JWD7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LearningSession part 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Roll a Dice";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -455,7 +461,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,8 +472,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4VK487JWD7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "LearningSession part 2/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Roll a Dice";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -482,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
